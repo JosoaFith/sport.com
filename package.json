@@ -1,0 +1,12 @@
+{
+  "name": "josoa-eval-sass",
+  "version": "1.0.0",
+  "description": "sass-evaluation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "josoa-fitahiana",
+  "license": "ISC",
+  "keywords": []
+}

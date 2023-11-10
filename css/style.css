@@ -1,0 +1,243 @@
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-flex {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.width-100, #primary-footer, #primary-footer .container #footer-nav, #primary-footer .container #copyright, main ul, main ul li figure figcaption, header {
+  width: 100%;
+}
+
+.bold-font, main ul li figure .reduction, main ul li .footer-product span {
+  font-family: bold-webfont;
+}
+
+.i-copyright::before {
+  font: var(--fa-font-regular);
+  content: "\f1f9";
+}
+
+header {
+  margin: 0 0 20px;
+  padding: 25px 0 10px;
+  background-image: url("../img/background.jpg");
+  border-bottom: #000 3px solid;
+  box-shadow: 0 3px 5px 3px rgb(0, 0, 0);
+}
+header section {
+  justify-content: space-between;
+}
+header section h1 {
+  font-weight: 200;
+  font-size: 1.6rem;
+}
+header section h1 span {
+  color: #ea9f05;
+}
+header section p {
+  font-size: 1.4rem;
+}
+header section .header-flex:first-of-type {
+  align-items: flex-start;
+}
+header section .header-flex:last-of-type {
+  align-items: flex-end;
+}
+
+#primary-nav ul {
+  justify-content: flex-end;
+}
+#primary-nav ul a {
+  text-align: center;
+  padding: 10px 0 5px 25px;
+  font-size: 1.1rem;
+}
+#primary-nav ul a:hover {
+  text-shadow: 0 0 5px #7a7a7a;
+  transform: scale(1.1);
+}
+
+main {
+  background: #f3f3f3;
+  padding-bottom: 50px;
+}
+main ul {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main ul li {
+  width: 35%;
+  margin: 40px 40px;
+}
+main ul li figure {
+  position: relative;
+  transition: all 0.7s;
+}
+main ul li figure .reduction {
+  position: absolute;
+  background: #292929;
+  padding: 2% 5%;
+  color: #ea9f05;
+  font-size: 2rem;
+  border-radius: 10px;
+  left: 85%;
+  top: 3%;
+}
+main ul li figure figcaption {
+  position: absolute;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  bottom: 5%;
+}
+main ul li figure:hover {
+  opacity: 0.7;
+}
+main ul li .footer-product {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+main ul li .footer-product a {
+  display: block;
+  color: #fff;
+  background: linear-gradient(0, #1c1c1c, #363636);
+  font-size: 1.2rem;
+  padding: 5px 30px;
+}
+main ul li .footer-product a:hover {
+  background: #ea9f05;
+}
+main ul li .footer-product span {
+  font-size: 2rem;
+}
+main ul li .footer-product span:first-of-type {
+  -webkit-text-decoration: line-through 3px #4a4a4a;
+          text-decoration: line-through 3px #4a4a4a;
+}
+main ul li .footer-product span:last-of-type {
+  color: #ea9f05;
+}
+
+#primary-footer {
+  background: #373737;
+  padding: 50px 0 20px;
+}
+#primary-footer .container {
+  position: relative;
+}
+#primary-footer .container #footer-nav {
+  position: absolute;
+  text-align: center;
+  top: -80px;
+}
+#primary-footer .container #footer-nav ul {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background: #fff;
+  width: 515px;
+  height: 55px;
+}
+#primary-footer .container #footer-nav ul i {
+  font-size: 0.7rem;
+  color: #d2d2d2;
+}
+#primary-footer .container #footer-nav ul a {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+#primary-footer .container #footer-nav ul a:hover {
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 0 5px #7a7a7a;
+  transform: scale(1.1);
+}
+#primary-footer .container #infos {
+  justify-content: space-around;
+}
+#primary-footer .container #infos li {
+  text-align: center;
+  margin: 2%;
+}
+#primary-footer .container #infos li img {
+  width: 35%;
+  margin: 1%;
+}
+#primary-footer .container #infos li p {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 1rem;
+}
+#primary-footer .container hr {
+  color: #828282;
+  border: #828282 2px solid;
+  margin: 30px 0;
+}
+#primary-footer .container #social-network ul {
+  justify-content: center;
+}
+#primary-footer .container #social-network ul a {
+  margin: 0 20px 30px;
+}
+#primary-footer .container #social-network ul a:hover {
+  transform: rotateY(360deg);
+}
+#primary-footer .container #copyright {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: bold-webfont;
+  src: url("../fonts/LiberationSans-Bold-webfont.ttf");
+}
+@font-face {
+  font-family: regular-webfont;
+  src: url("../fonts/LiberationSans-Regular-webfont.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  font-size: 15px;
+  font-family: regular-webfont;
+}
+html body {
+  background: #1c1c1c;
+  color: #2e2e2e;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2e2e;
+  display: block;
+  transition: all 0.7s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,89 @@
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-flex {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.width-100, main ul, main ul li figure figcaption {
+  width: 100%;
+}
+
+.bold-font, main ul li figure .reduction, main ul li .footer-product span {
+  font-family: bold-webfont;
+}
+
+.i-copyright::before {
+  font: var(--fa-font-regular);
+  content: "\f1f9";
+}
+
+main {
+  background: #f3f3f3;
+  padding-bottom: 50px;
+}
+main ul {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main ul li {
+  width: 35%;
+  margin: 40px 40px;
+}
+main ul li figure {
+  position: relative;
+  transition: all 0.7s;
+}
+main ul li figure .reduction {
+  position: absolute;
+  background: #292929;
+  padding: 2% 5%;
+  color: #ea9f05;
+  font-size: 2rem;
+  border-radius: 10px;
+  left: 85%;
+  top: 3%;
+}
+main ul li figure figcaption {
+  position: absolute;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  bottom: 5%;
+}
+main ul li figure:hover {
+  opacity: 0.7;
+}
+main ul li .footer-product {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+main ul li .footer-product a {
+  display: block;
+  color: #fff;
+  background: linear-gradient(0, #1c1c1c, #363636);
+  font-size: 1.2rem;
+  padding: 5px 30px;
+}
+main ul li .footer-product a:hover {
+  background: #ea9f05;
+}
+main ul li .footer-product span {
+  font-size: 2rem;
+}
+main ul li .footer-product span:first-of-type {
+  -webkit-text-decoration: line-through 3px #4a4a4a;
+          text-decoration: line-through 3px #4a4a4a;
+}
+main ul li .footer-product span:last-of-type {
+  color: #ea9f05;
+}
