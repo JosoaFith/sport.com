@@ -201,6 +201,172 @@ main ul li .footer-product span:last-of-type {
   text-align: center;
 }
 
+@media screen and (max-width: 1105px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 920px) {
+  main ul li figure .reduction {
+    font-size: 1.5rem;
+    padding: 1% 3%;
+  }
+  main ul li figure figcaption {
+    font-size: 0.85rem;
+  }
+  main ul li .footer-product a {
+    font-size: 1rem;
+    padding: 5px 15px;
+  }
+  main ul li .footer-product span {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  header section img {
+    width: 80%;
+  }
+  header section h1 {
+    font-size: 1.2rem;
+  }
+  header section p {
+    font-size: 1.2rem;
+  }
+  #primary-nav ul a {
+    font-size: 0.9rem;
+    padding: 5px 4px;
+  }
+  main ul li figure figcaption {
+    font-size: 0.7rem;
+  }
+  main ul li .footer-product a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  main ul li .footer-product span {
+    font-size: 1.2rem;
+  }
+  #primary-footer .container #footer-nav ul {
+    width: 500px;
+    padding: 10px 20px;
+  }
+  #primary-footer .container #infos {
+    flex-wrap: wrap;
+  }
+  #primary-footer .container #infos li {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header section {
+    padding-top: 20px;
+  }
+  header section a {
+    text-align: center;
+  }
+  header section img {
+    width: 70%;
+  }
+  header section h1 {
+    font-size: 1.2rem;
+  }
+  header section p {
+    font-size: 1.1rem;
+    margin: 25px 0 10px;
+  }
+  header section .header-flex:first-of-type {
+    align-items: center;
+  }
+  header section .header-flex:last-of-type {
+    width: 100%;
+    align-items: flex-start;
+  }
+  #primary-nav {
+    width: 100%;
+  }
+  #primary-nav ul {
+    justify-content: space-between;
+  }
+  #primary-nav ul a {
+    font-size: 1.1rem;
+    padding: 15px 5px;
+  }
+  main ul {
+    align-items: center;
+  }
+  main ul li {
+    width: 60%;
+  }
+  main ul li .footer-product {
+    flex-direction: row;
+  }
+  main ul li .footer-product a {
+    font-size: 1.1rem;
+  }
+  main ul li .footer-product span {
+    font-size: 1.5rem;
+  }
+  #primary-footer .container #footer-nav ul {
+    width: 400px;
+    height: 55px;
+  }
+  #primary-footer .container #footer-nav ul a {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 370px) {
+  header section p {
+    margin: 15px 0 0;
+  }
+  #primary-nav ul a {
+    padding: 10px 5px;
+    font-size: 1rem;
+  }
+  main ul li figure figcaption {
+    font-size: 0.65rem;
+  }
+  main ul li .footer-product a {
+    font-size: 0.9rem;
+  }
+  main ul li .footer-product span {
+    font-size: 1.2rem;
+  }
+  #primary-footer .container #footer-nav {
+    top: -75px;
+  }
+  #primary-footer .container #footer-nav ul {
+    width: 310px;
+    height: 45px;
+    padding: 10px 10px;
+  }
+  #primary-footer .container #footer-nav ul a {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  #primary-footer .container #infos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #primary-footer .container #infos li {
+    padding-bottom: 20px;
+    width: 70%;
+  }
+  #primary-footer .container #infos li img {
+    width: 30%;
+    margin: 10px 0 5px;
+  }
+  #primary-footer .container #infos li p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+}
 @font-face {
   font-family: bold-webfont;
   src: url("../fonts/LiberationSans-Bold-webfont.ttf");
